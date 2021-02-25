@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Performance-Navigator password</title>
+    <style>
+      * {
+        padding : 0;
+        margin  : 0;
+        border  : 0;
+        outline : 0;
+        font-family: Arial;
+      }
+      
+      body {
+        background-color : #917975;
+        padding-top      : 50px;
+      }
+      
+      #pfform {
+        position : relative;
+        width  : 340px;
+        height : 170px;
+        border-radius : 5px;
+        margin : 0 auto;
+        background-color: #e3e3e3;
+        border-top : 1px solid #f1f1f1;
+        box-shadow : 0 0 0 1px #626262 , 0 0 0 6px rgba(150,150,150,.5) , 0 0 0 7px #cbbdbc , 0 0 0 8px #78495b;
+        text-align : center;
+      }
+      
+      h1 {
+        margin     : 10px 0 20px 0;
+        font-size  : 42px;
+        color      : #b8b8b8;
+        font-family: 'Arial';
+        text-shadow: 1px 1px 0 #888 , 2px 2px 0 #ccc; 
+      }
+      
+      input {
+        display    : block;
+        height     : 48px;
+        margin     : 0 auto 17px;
+        text-align : center;
+        width      : 266px;
+        border-radius : 5px;
+      }
+      
+      .pass {
+        font-size      : 20px;
+        background: -moz-linear-gradient(top,  rgba(213,213,213,1) 0%, rgba(213,213,213,1) 13%, rgba(215,215,215,1) 30%, rgba(222,222,222,1) 71%, rgba(221,221,221,1) 100%);
+        background: -webkit-linear-gradient(top,  rgba(213,213,213,1) 0%,rgba(213,213,213,1) 13%,rgba(215,215,215,1) 30%,rgba(222,222,222,1) 71%,rgba(221,221,221,1) 100%);
+        
+        box-shadow: inset 0 0 3px 1px #ccc; 
+        
+        border-top : 1px solid #aaa;
+        border-bottom : 1px solid #eee;
+        
+        color          : #555;
+      }
+      
+      .description {
+        width    : 266px;
+        margin   : 0 auto 10px;
+      }
+      
+      .alert {
+        color: #f00;
+      }
+
+      .btn {
+        margin-bottom : 30px;
+        color         : #fefefe;
+        text-shadow   : 0 1px 0 #777;
+        border        : 1px solid #b6733c;
+        box-shadow    : inset 0 0 1px 1px #ffcb9c;
+        text-transform : uppercase;
+        background: -moz-linear-gradient(top,  rgba(249,159,107,1) 0%, rgba(238,148,96,1) 57%, rgba(236,146,94,1) 89%, rgba(232,144,94,1) 94%, rgba(234,146,96,1) 96%, rgba(244,161,111,1) 100%);
+        background: -webkit-linear-gradient(top,  rgba(249,159,107,1) 0%,rgba(238,148,96,1) 57%,rgba(236,146,94,1) 89%,rgba(232,144,94,1) 94%,rgba(234,146,96,1) 96%,rgba(244,161,111,1) 100%);
+        
+        font-size      : 17px;
+      }
+      
+      .btn:hover {
+        cursor : pointer;
+        background: -moz-linear-gradient(top,  rgba(244,161,111,1) 0%, rgba(234,146,96,1) 4%, rgba(232,144,94,1) 6%, rgba(236,146,94,1) 12%, rgba(238,148,96,1) 43%, rgba(249,159,107,1) 100%);
+        background: -webkit-linear-gradient(top,  rgba(244,161,111,1) 0%,rgba(234,146,96,1) 4%,rgba(232,144,94,1) 6%,rgba(236,146,94,1) 12%,rgba(238,148,96,1) 43%,rgba(249,159,107,1) 100%);
+      }
+      
+      .pass:focus {
+        box-shadow    : inset 0 0 1px 1px #ffcb9c;
+        border        : 1px solid #b6733c;
+        transition    : all .2s ease-in;
+      }
+      
+      hr {
+        height : 1px;
+        width  : 270px;
+        margin : auto;
+      }
+      
+      ::-webkit-input-placeholder {
+        color          : #929292;
+        font-size      : 17px;
+        text-transform : uppercase;
+      }
+      
+      :-moz-placeholder {  
+        color          : #929292;
+        font-size      : 17px;
+        text-transform : uppercase;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+      
+    <div id="pfform" onsubmit="submitted()">
+      <h1>Performance-Navigator</h1>
+      <div class="description">
+        <span class="alert">This web page is on Performance-Navigator blacklist</span>
+      </div>
+      <hr style="background-color : #bebebe;"/>
+      <hr style="background-color : #FFF; "/>      
+    </div>
+  </body>
+</html>
